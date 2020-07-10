@@ -8,6 +8,7 @@ var wait = localStorageGetItem("wait") || false;
 /*getItem() method belongs to the Storage Object, which can be either a localStorage object or a sessionStorrage object*/
 var pbUrl = "https://pb.judge0.com";
 var check_timeout = 200;
+var rapidapi_key = "4fb313aa56msh742fdc0f040908ap1ab46djsn61e4d33ecf77";
 
 /*the status line gets blinked*/
 var blinkStatusLine = ((localStorageGetItem("blink") || "true") === "true");
